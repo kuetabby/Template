@@ -27,7 +27,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### `npm run eject` or `yarn eject`
 
 **Note: this is a one-way operation and also the `script` that u dont want to use. Once you `eject`, you can’t go back!**
 
