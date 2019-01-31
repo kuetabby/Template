@@ -10,6 +10,7 @@ const Carosel = () =>{
     const settings={
         dots: true,
         infinite: true,
+        autoplay: true,
         speed: 500
     }
 

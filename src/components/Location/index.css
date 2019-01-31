@@ -1,0 +1,20 @@
+.location_wrapper{
+    position: relative;
+}
+
+.location_tag{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.location_tag div{
+    text-align: center;
+    width: 220px;
+    margin: 0 auto;
+    background: #2c2c2c;
+    color: white;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+}

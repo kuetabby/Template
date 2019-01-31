@@ -45,7 +45,7 @@ class Time extends Component{
                         </div>
 
                         <div className='countdown_bottom'>
-                            <div className='countdown_item'>
+                            <div>
                                 <div className='countdown_time'>
                                     {this.state.days}
                                 </div>

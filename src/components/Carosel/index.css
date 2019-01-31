@@ -15,7 +15,7 @@
 
 .band_name{
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     min-width: 300px;
     max-width: 400px;
@@ -27,12 +27,11 @@
 .wrapper{
     border: 2px solid white;
     height: 60px;
-    margin: 6px;
     text-align: center;
     color: #fff;
     font-size: 40px;
     margin: 8px;
-    padding: 20px 30px 0px 25px;
+    padding: 20px 70px 0px;
     text-transform: uppercase;;
 }
 
@@ -42,16 +41,16 @@
 
 .countdown_wrapper{
     position: absolute;
-    bottom: 0px;
-    color: white;
+    color:#ffffff;
+    bottom: 0;
 }
 
 .countdown_top{
+    font-size: 1.4vmax;
     background: #ff4800;
-    padding: 10px;
     display: inline-block;
     text-transform: uppercase;
-    font-size: 1.4vmax;
+    padding: 10px;
 }
 
 .countdown_bottom{
@@ -61,19 +60,19 @@
 }
 
 .countdown_time{
+    font-size: 5vmax;
     border-right: 1px solid #F44336;
-    margin-right: 15px;
-    padding-right: 3.5vmax;
-    font-size: 5.2vmax
+    margin-right: 14px;
+    padding-right: 2vmax;
 }
 
 .countdown_tag{
-    padding-left: 7px;
     text-transform: uppercase;
     font-size: 1.7vmax;
+    padding-left: 7px;
 }
 
 .no_border{
-    border: none !important;
-    padding-right: 15px !important;
+    padding-right: 0px;
+    border: none;
 }

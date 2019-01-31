@@ -2,12 +2,12 @@
     background: #3c3c3c;
 }
 .pc_section{
-    padding: 80px 0px;
+    padding: 60px 0px;
 }
-h2{
+.pc_section h2{
+    color: white;
     text-align: center;
     text-transform: uppercase;
-    color: white;
     font-size: 50px;
     margin: 0px;
 }
