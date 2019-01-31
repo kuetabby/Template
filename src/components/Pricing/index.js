@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Zoom from 'react-reveal/Zoom';
 import './index.css'
-
+import MyButton from '../Button/index'
 class Pricing extends Component{
     state={
         prices:[100,150,250],
@@ -25,8 +25,16 @@ class Pricing extends Component{
                             <span>{this.state.positions[i]}</span>
                         </div>
                         <div className='pc_desc'>{this.state.desc[i]}</div>
+                        <div className='pc_button'>
+                            <MyButton
+                            text="Purchase"
+                            bck="#ffa800"
+                            color="#fffff"
+                            link={this.state.linkto[i]}
+                            />
+                        </div>
                     </div>
-                 </div>
+                </div>
             </Zoom>
         ))
     )
