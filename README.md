@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-For Both Mobile and Desktop..!!!
+## For Both Mobile and Desktop..!!!
 
 ## Install all the dependencies
 `yarn install`
