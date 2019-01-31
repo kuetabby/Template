@@ -4,6 +4,7 @@ import './App.css';
 // Import Component
 import Featured from '../components/Carosel/index'
 import Venue from '../components/VenueInfo/index'
+import Pricing from '../components/Pricing/index'
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
       <div>
         <Featured />
         <Venue />
+        <Pricing />
       </div>
     );
   }
