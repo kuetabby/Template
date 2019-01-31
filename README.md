@@ -2,10 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## For Both Mobile and Desktop..!!!
 
-## Install all the dependencies
-`yarn install`
-  or
-`npm install`
+### Usage
+* Clone/Fork this repo and copy the files to your newly created repo.
+* npm install to install all the dependencies.
+* Then-> npm start to start the development server.
 
 ## Learn More
 
