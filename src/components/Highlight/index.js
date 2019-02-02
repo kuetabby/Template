@@ -1,9 +1,9 @@
 import React from 'react';
 import './index.css'
-import Description from './description';
-import Discount from './discount';
+import Description from './Description';
+import Discount from './Discount';
 
-const HighLights = () => {
+const Highlight = () => {
     return (
         <div>
             <div className="highlight_wrapper">
@@ -14,4 +14,4 @@ const HighLights = () => {
     );
 };
 
-export default HighLights;
+export default Highlight;

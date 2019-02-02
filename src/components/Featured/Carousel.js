@@ -5,7 +5,7 @@ import Mark  from '../../image/mark.jpg'
 import Matt from '../../image/matt.jpg'
 import Travis from '../../image/travis.jpg'
 
-const Carosel = () =>{
+const Carousel = () =>{
 
     const settings={
         dots: true,
@@ -44,4 +44,4 @@ const Carosel = () =>{
     );
 };
 
-export default Carosel
+export default Carousel

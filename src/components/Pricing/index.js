@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Zoom from 'react-reveal/Zoom';
 import './index.css'
 import MyButton from '../Button/index'
+
 class Pricing extends Component{
     state={
         prices:[100,150,250],

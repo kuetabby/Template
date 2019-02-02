@@ -1,46 +1,47 @@
-import React, { Component } from 'react';
+import React, {Suspense, lazy} from 'react';
 import {Element} from 'react-scroll';
 import './App.css';
 
 // Import Component
-import Featured from '../components/Carosel/index'
-import Venue from '../components/VenueInfo/index'
-import Pricing from '../components/Pricing/index'
-import Highlights from '../components/Highlight/index'
-import Location from '../components/Location/index'
-import Header from '../components/Header_Footer/Header'
-import Footer from '../components/Header_Footer/Footer'
+import {Spinner} from './Spinner'
+const Featured = lazy(() => import('../components/Featured'));
+const Venue = lazy(() => import('../components/Venue'));
+const Pricing = lazy(() => import('../components/Pricing'));
+const Highlight = lazy(() => import('../components/Highlight'));
+const Location = lazy(() => import('../components/Location'));
+const Header = lazy(() => import('../components/Header_Footer/Header'))
+const Footer = lazy(() => import('../components/Header_Footer/Footer'))
 
-class App extends Component {
-  render() {
+function App(){
     return (
-      <div>
-        <Header />
+      <Suspense fallback={<Spinner size="large" />}>
+        <div>
+          <Header />
 
-        <Element name="feature">
-          <Featured />
-        </Element>
+          <Element name="feature">
+            <Featured />
+          </Element>
 
-        <Element name="venue">
-          <Venue />
-        </Element>
+          <Element name="venue">
+            <Venue />
+          </Element>
 
-        <Element name="pricing">
-          <Pricing />
-        </Element>
+          <Element name="pricing">
+            <Pricing />
+          </Element>
 
-        <Element name="highlight">
-          <Highlights />
-        </Element>
+          <Element name="highlight">
+            <Highlight />
+          </Element>
 
-        <Element name="location">
-          <Location />
-        </Element>
+          <Element name="location">
+            <Location />
+          </Element>
 
-        <Footer />
-      </div>
+          <Footer />
+        </div>
+      </Suspense>
     );
-  }
 }
 
 export default App;
