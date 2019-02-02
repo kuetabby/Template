@@ -19,14 +19,14 @@ class Pricing extends Component{
     showPrice = () => (
         this.state.prices.map((box,i) => (
             <Zoom delay={this.state.delay[i]} key={i}>
-                <div className='pc_item'>
-                    <div className='pc_inner_wrapper'>
-                        <div className='pc_price'>
+                <div className="pc_item">
+                    <div className="pc_inner_wrapper">
+                        <div className="pc_price">
                             <span>${this.state.prices[i]}</span>
                             <span>{this.state.positions[i]}</span>
                         </div>
-                        <div className='pc_desc'>{this.state.desc[i]}</div>
-                        <div className='pc_button'>
+                        <div className="pc_desc">{this.state.desc[i]}</div>
+                        <div className="pc_button">
                             <MyButton
                             text="Purchase"
                             bck="#ffa800"

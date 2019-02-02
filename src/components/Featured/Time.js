@@ -38,42 +38,42 @@ class Time extends Component{
         return(
             <div>
                 <Slide left delay={1000}>
-                    <div className='countdown_wrapper'>
+                    <div className="countdown_wrapper">
 
-                        <div className='countdown_top'>
+                        <div className="countdown_top">
                             Event Starts In
                         </div>
 
-                        <div className='countdown_bottom'>
+                        <div className="countdown_bottom">
                             <div>
-                                <div className='countdown_time'>
+                                <div className="countdown_time">
                                     {this.state.days}
                                 </div>
-                                <div className='countdown_tag'>
+                                <div className="countdown_tag">
                                     days
                                 </div>
                             </div>
-                            <div className='countdown_item'>
-                                <div className='countdown_time'>
+                            <div className="countdown_item">
+                                <div className="countdown_time">
                                     {this.state.hours}
                                 </div>
-                                <div className='countdown_tag'>
+                                <div className="countdown_tag">
                                     hours
                                 </div>
                             </div>
-                            <div className='countdown_item'>
-                                <div className='countdown_time'>
+                            <div className="countdown_item">
+                                <div className="countdown_time">
                                     {this.state.minutes}
                                 </div>
-                                <div className='countdown_tag'>
+                                <div className="countdown_tag">
                                     min
                                 </div>
                             </div>
-                            <div className='countdown_item' >
-                                <div className='countdown_time no_border'>
+                            <div className="countdown_item">
+                                <div className="countdown_time">
                                     {this.state.seconds}
                                 </div>
-                                <div className='countdown_tag'>
+                                <div className="countdown_tag">
                                     sec
                                 </div>
                             </div>

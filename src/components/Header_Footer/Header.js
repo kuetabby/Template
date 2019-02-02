@@ -41,9 +41,9 @@ class Header extends Component{
             >
             <Toolbar>
 
-                <div className='header_logo'>
-                    <div className='font_righteous header_venue_logo'>The Venue</div>
-                    <div className='header_title_logo'>Musical Events</div>
+                <div className="header_logo">
+                    <div className="font_righteous header_venue_logo">The Venue</div>
+                    <div className="header_title_logo">Musical Events</div>
                 </div>
                 
                 <IconButton aria-label="Menu" color="inherit" onClick={(value) => this.toggleDrawer(value)}>
